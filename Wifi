@@ -1,0 +1,31 @@
+import os
+import sys
+import time
+
+# কালার কোড
+R = '\033[1;31m'
+Y = '\033[1;33m'
+W = '\033[1;37m'
+RESET = '\033[0m'
+
+def main():
+    print(Y + "[*] Initialization successful..." + RESET)
+    time.sleep(1.2)
+
+    # **রুট চেক কোড সম্পূর্ণভাবে সরানো হয়েছে।**
+    # কোডটি এখন স্বাভাবিকভাবে চলবে এবং আপনি এখানে আপনার মূল লজিক যোগ করতে পারেন।
+    
+    print(W + "[✓] Tool is running in a non-root-checking environment." + RESET)
+    
+    # এখানে আপনার টুলের আসল ফাংশন বা লজিক শুরু করুন
+
+    # উদাহরণস্বরূপ, আরও একটি মেসেজ:
+    # time.sleep(1.0)
+    # print(Y + "[*] Starting primary operation..." + RESET)
+    
+    # শেষে, স্বাভাবিকভাবে এক্সিট করুন
+    time.sleep(1.5)
+    # sys.exit(0) # যদি সফলভাবে শেষ হয়
+
+if __name__ == "__main__":
+    main()
